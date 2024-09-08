@@ -117,6 +117,7 @@ class AuthViewModel(var navController: NavController, var context: Context) {
                 } else {
                     // Password reset email could not be sent
                     Toast.makeText(context,"Confirmed error as occurred",Toast.LENGTH_LONG).show()
+                    navController.navigate(ROUTE_ADMIN)
                 }
             }
         }
