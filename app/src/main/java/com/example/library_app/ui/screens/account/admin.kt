@@ -104,7 +104,7 @@ fun Admin(
                                         account.Admin(
                                             email.trim()
                                         )
-                                        navController.navigate(ROUTE_ADD_BOOK)
+                                    
                                     }
                                 ) {
                                     Icon(
